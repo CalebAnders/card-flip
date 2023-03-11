@@ -1,0 +1,28 @@
+import card_back from "../assets/img/card_back.png";
+
+export default [
+    { number: 1, color: "red", backImg: card_back },
+    { number: 1, color: "black", backImg: card_back },
+    { number: 2, color: "red", backImg: card_back },
+    { number: 2, color: "black", backImg: card_back },
+    { number: 3, color: "red", backImg: card_back },
+    { number: 3, color: "black", backImg: card_back },
+    { number: 4, color: "red", backImg: card_back },
+    { number: 4, color: "black", backImg: card_back },
+    { number: 5, color: "red", backImg: card_back },
+    { number: 5, color: "black", backImg: card_back },
+    { number: 6, color: "red", backImg: card_back },
+    { number: 6, color: "black", backImg: card_back },
+    { number: 7, color: "red", backImg: card_back },
+    { number: 7, color: "black", backImg: card_back },
+    { number: 8, color: "red", backImg: card_back },
+    { number: 8, color: "black", backImg: card_back },
+    { number: 9, color: "red", backImg: card_back },
+    { number: 9, color: "black", backImg: card_back },
+    { number: 10, color: "red", backImg: card_back },
+    { number: 10, color: "black", backImg: card_back },
+    { number: 11, color: "red", backImg: card_back },
+    { number: 11, color: "black", backImg: card_back },
+    { number: 12, color: "red", backImg: card_back },
+    { number: 12, color: "black", backImg: card_back },
+];
