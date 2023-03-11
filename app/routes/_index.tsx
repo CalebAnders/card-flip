@@ -1,13 +1,8 @@
-import { Client } from "boardgame.io/react";
-import { TicTacToe } from "~/src/tic-tac-toe";
-import { GameBoard } from "~/components/GameBoard";
-
+// import { Client } from "boardgame.io/react";
 // import Game from "~/src/Game";
-const Game = Client({ game: TicTacToe, board: GameBoard });
 
-export default function CardFlip() {
-    return  ( <Game>
+import { Link } from "@remix-run/react";
 
-
-    </Game>);
+export default function Game() {
+    return <Link to="/game">Start Game</Link>;
 }
